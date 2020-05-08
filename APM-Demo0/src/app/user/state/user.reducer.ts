@@ -1,10 +1,10 @@
 export function reducer(state, action) {
   switch (action.type) {
 
-    case 'TOGGLE_PRODUCT_CODE':
+    case 'MASK_USER_NAME':
       return {
         ...state,
-        showProductCode: action.payload
+        maskUserName: action.payload
       };
 
     default:
